@@ -24,8 +24,8 @@ export const VALID_NUM_PLAYERS = [2, 3, 4, 5, 6] as const;
 
 export const VALID_PLAYER_INDEXES = [0, 1, 2, 3, 4, 5] as const;
 
-export const MAX_SUITS_IN_A_VARIANT = 6;
-export const VALID_SUIT_INDEXES = [0, 1, 2, 3, 4, 5] as const;
+export const MAX_SUITS_IN_A_VARIANT = 10;
+export const VALID_SUIT_INDEXES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
 /** A variant can never have more colors than suits, so we repurpose the existing array. */
 export const VALID_CLUE_COLOR_INDEXES = VALID_SUIT_INDEXES;
