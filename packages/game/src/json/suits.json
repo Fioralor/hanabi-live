@@ -11,10 +11,24 @@
     "id": "R",
     "pip": "hanabiRed"
   },
+ {
+    "name": "Red2",
+    "id": "RT",
+    "abbreviation": "E",
+    "pip": "hanabiRed",
+    "clueColors": ["Red"]
+  },
   {
     "name": "Yellow",
     "id": "Y",
     "pip": "hanabiYellow"
+  },
+  {
+    "name": "Yellow2",
+    "id": "YT",
+    "abbreviation": "O",
+    "pip": "hanabiYellow",
+    "clueColors": ["Yellow"]
   },
   {
     "name": "Green",
@@ -22,14 +36,35 @@
     "pip": "hanabiGreen"
   },
   {
+    "name": "Green2",
+    "id": "GT",
+    "abbreviation": "N",
+    "pip": "hanabiGreen",
+    "clueColors": ["Green"]
+  }, 
+  {
     "name": "Blue",
     "id": "B",
     "pip": "hanabiBlue"
   },
   {
+    "name": "Blue2",
+    "id": "BT",
+    "abbreviation": "U",
+    "pip": "hanabiBlue",
+    "clueColors": ["Blue"]
+  },
+  {
     "name": "Purple",
     "id": "P",
     "pip": "hanabiWhite"
+  },
+  {
+    "name": "Purple2",
+    "id": "PT",
+    "abbreviation": "L",
+    "pip": "hanabiWhite",
+    "clueColors": ["Purple"]
   },
   {
     "name": "Teal",
