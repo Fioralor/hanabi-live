@@ -17026,5 +17026,11 @@
     "name": "Sudoku & Dark Prism (5 Suits)",
     "suits": ["Red", "Yellow", "Green", "Blue", "Dark Prism"],
     "sudoku": true
+  },
+  {
+    "id": 2127,
+    "newID": "R+RT+Y+YT+G+GT+B+BT+P+PT",
+    "name": "Double Colors (10 suits)",
+    "suits": ["Red", "Red2", "Yellow", "Yellow2", "Green", "Green2", "Blue", "Blue2", "Purple", "Purple2"]
   }
 ]
