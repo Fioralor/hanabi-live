@@ -300,8 +300,9 @@ interface PlayStackValues {
 function drawPlayStacks() {
   let yOffset: number;
 
-  if (globals.variant.suits.length === 6 || globals.variant.showSuitNames) {
-    cardWidth = 0.06;
+  if (globals.variant.suits.length >= 6 || globals.variant.showSuitNames) {
+    // cardWidth = 0.06;
+    cardWidth = 0.04;
     cardHeight = 0.151;
     yOffset = 0.019;
   } else {
@@ -478,8 +479,8 @@ function drawPlayStacks() {
 }
 
 function drawDiscardStacks() {
-  const discardStackSpacing =
-    globals.variant.suits.length === 6 ? 0.038 : 0.047;
+  // const discardStackSpacing = globals.variant.suits.length >= 6 ? 0.038 : 0.047;
+  const discardStackSpacing = globals.variant.suits.length >= 6 ? 0.03 : 0.047;
 
   for (const [suitIndex, suit] of globals.variant.suits.entries()) {
     // Make the discard stack for this suit.
